@@ -1,7 +1,8 @@
 import React from 'react'
 import {
   InboxIcon,
-  SparklesIcon
+  SparklesIcon,
+  UserGroupIcon
 } from '@heroicons/react/outline'
 
 export default function Coffee () {
@@ -13,21 +14,25 @@ export default function Coffee () {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
+                <span className="h-12 w-12 rounded-md flex items-center justify-center"
+                  style={{backgroundColor: "#365abd"}}
+                >
                   <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Go Grab a coffee
+                  Go Grab a Coffee
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  With just 1-click, PrimeHub CDK will setup everything you need for your new Machine-Learning adventure.
+                  With just 1-click, PrimeHub CDK will setup everything you need for your machine learning adventure on a cloud-native environment. <br /><br />
+                  Don't waste weeks on setting up 10+ different DevOps tools. Use PrimeHub to get a <b>fully functional JupyterLab</b> environment in no time, to reduce cost, and to scale your team by 10x.
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=primehub-starter&templateURL=https://primehub.s3.amazonaws.com/cloudformation/primehub-starter-cloudformation.yaml"
-                    className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    style={{backgroundColor: "#365abd"}}
                   >
                     Get started
                   </a>
@@ -38,7 +43,7 @@ export default function Coffee () {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;This is a Game Changer for ML practitioners
+                    &ldquo;This is a Game Changer
                     &rdquo;
                   </p>
                 </div>
@@ -52,7 +57,7 @@ export default function Coffee () {
                       />
                     </div>
                     <div className="text-base font-medium text-gray-700">
-                      Marcia Hill, Digital Marketing Manager
+                      Yunfang, Data Team Lead
                     </div>
                   </div>
                 </footer>
@@ -75,7 +80,9 @@ export default function Coffee () {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
+                <span className="h-12 w-12 rounded-md flex items-center justify-center"
+                  style={{backgroundColor: "#365abd"}}
+                >
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
@@ -84,12 +91,14 @@ export default function Coffee () {
                   Designed for You
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  PrimeHub is open source. We create an ecosystem to fit <b>your needs</b> instead of forcing you to a static workflow. <br />
+                  PrimeHub is <b>open source</b> and <b>cloud-native</b>. <br /> <br />
+                  Don't be constrainted by the tools, PrimeHub will adapt to your preferred workflow.
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSf3JeBYdMPtc9-Yb7UjdNKO6osWOK1JJ5-u5_TLFbEf-LtaxQ/viewform?usp=sf_link"
-                    className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    style={{backgroundColor: "#365abd"}}
                   >
                     Share your workflow with us
                   </a>
@@ -100,9 +109,49 @@ export default function Coffee () {
           <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
             <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/form.png"
+                className="w-full rounded-xl shadow-xl ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="/now.svg"
                 alt="Customer profile user interface"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 mt-24">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+            <div>
+              <div>
+                <span className="h-12 w-12 rounded-md flex items-center justify-center"
+                  style={{backgroundColor: "#365abd"}}
+                >
+                  <UserGroupIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                </span>
+              </div>
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  It's about collaboration
+                </h2>
+                <p className="mt-4 text-lg text-gray-500">
+                  PrimeHub focus on <b>Machine Learning Orchestration</b>. <br /><br />
+                  We build the infrastructure ready to <b>adapt to the next 10 year</b> of MLOps.
+                </p>
+                <div className="mt-6">
+                  <a
+                    href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=primehub-starter&templateURL=https://primehub.s3.amazonaws.com/cloudformation/primehub-starter-cloudformation.yaml"
+                    className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    style={{backgroundColor: "#365abd"}}
+                  >
+                    Try Free
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img
+                className="w-full rounded-xl shadow-xl ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="/colab.svg"
+                alt="Inbox user interface"
               />
             </div>
           </div>

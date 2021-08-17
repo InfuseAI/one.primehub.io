@@ -106,9 +106,11 @@ export default function Footer () {
               </div>
             </div>
           </div>
-          <div className="mt-12 xl:mt-0 text-gray-500">
+          <div className="mt-12 xl:mt-0 text-gray-500 text-sm">
             <img src='/logo.svg' className="mb-4" />
-            InfuseAI builds PrimeHub, an open-source pluggable MLOps platform. PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale. By improving the iterative process of data science, data teams can collaborate and innovate better. InfuseAI is trusted by research institutes and clients in industries including FSI, manufacturing, and healthcare.
+            InfuseAI builds PrimeHub, an open-source pluggable MLOps platform.<br /><br />
+            PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale. By improving the iterative process of data science, data teams can collaborate and innovate better.<br /><br />
+            InfuseAI is trusted by research institutes and clients in industries including FSI, manufacturing, and healthcare.
           </div>
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
