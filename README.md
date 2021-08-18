@@ -6,4 +6,4 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 ## publish to ghpage
 
-`npm run ghpage && cd docs && touch .nojekyll && echo 'one.primehub.io' > CNAME`
+`npm run ghpage && cd docs && touch .nojekyll && echo 'one.primehub.io' > CNAME && cd ..`
