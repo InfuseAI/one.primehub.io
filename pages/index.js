@@ -12,7 +12,7 @@ export default function Home () {
         <link rel="icon" href="/favicon.ico" />
 
         <script type="text/javascript" src="/hotjar.js" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0B04EW6NF"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0B04EW6NF" />
         <script type="text/javascript" src="/ga.js" />
       </Head>
 
