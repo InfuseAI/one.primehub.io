@@ -25,7 +25,7 @@ export default function Coffee () {
                   Go Grab a Coffee
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  With just 1-click, PrimeHub CDK will setup everything you need for your machine learning adventure on a cloud-native environment. <br /><br />
+                  With just 1-click, PrimeHub will setup everything you need for your machine learning adventure on a cloud-native environment. <br /><br />
                   Don't waste weeks on setting up 10+ different DevOps tools. Use PrimeHub to get a <b>fully functional JupyterLab</b> environment in no time, to reduce cost, and to scale your team by 10x.
                 </p>
                 <div className="mt-6">
