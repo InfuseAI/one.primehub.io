@@ -22,11 +22,11 @@ export default function Coffee () {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Go Grab a Coffee
+                  Go Grab a Coffee and Say Goodbye to Complex Infrastructure
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   With just 1-click, PrimeHub will setup everything you need for your machine learning adventure on a cloud-native environment. <br /><br />
-                  Don't waste weeks on setting up 10+ different DevOps tools. Use PrimeHub to get a <b>fully functional JupyterLab</b> environment in no time, to reduce cost, and to scale your team by 10x.
+                  Don't waste weeks on setting up 10+ different DevOps tools. Use PrimeHub to get a <b>fully functional JupyterLab</b> environment in no time, to reduce cost, and to scale your team's productivity by 10x.
                 </p>
                 <div className="mt-6">
                   <a
@@ -92,7 +92,7 @@ export default function Coffee () {
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   PrimeHub is <b>open source</b> and <b>cloud-native</b>. <br /> <br />
-                  Don't be constrainted by the tools, PrimeHub will adapt to your preferred workflow.
+                  Don't be constrainted by the tools, PrimeHub will adapt to your preferred workflow and work in conjuction with your technology stacks.
                 </p>
                 <div className="mt-6">
                   <a
@@ -128,11 +128,11 @@ export default function Coffee () {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  It's about collaboration
+                  It's About Collaboration & Sustainability
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  PrimeHub focus on <b>Machine Learning Orchestration</b>. <br /><br />
-                  We build the infrastructure ready to <b>adapt to the next 10 year</b> of MLOps.
+                  PrimeHub focus on <b>Machine Learning Orchestration</b> thoughout the entire ML lifecycle. <br /><br />
+                  We build the infrastructure ready to <b>adapt to the next 10 year</b> of MLOps no matter what tools or platforms change, ensuring the high competency for your enterprise ML investment.
                 </p>
                 <div className="mt-6">
                   <a

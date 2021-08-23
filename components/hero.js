@@ -103,7 +103,7 @@ export default function Hero () {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-8">
                 <span className="block xl:inline">Full-Featured ML Platform</span>{' '}
-                <span className="block text-indigo-600 xl:inline">in 30 minutes</span>
+                <span className="block text-indigo-600 xl:inline">in 30 Minutes</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 PrimeHub makes AI workflow 10X faster, on your own infrastructure.
@@ -112,12 +112,14 @@ export default function Hero () {
                 <div className="rounded-md shadow">
                   <a
                     href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=primehub-starter&templateURL=https://primehub.s3.amazonaws.com/cloudformation/v0.8.0/primehub-starter-cloudformation.yaml"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10"
                   >
-                    1-Click Install
+                    1-Click Install on AWS
                   </a>
                 </div>
               </div>
+
+              <a href="https://aws.amazon.com/what-is-cloud-computing"><img src="https://d0.awsstatic.com/logos/powered-by-aws.png" alt="Powered by AWS Cloud Computing" className="mt-8" height="36px" width="100px" /></a>
             </div>
           </main>
         </div>
