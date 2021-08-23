@@ -118,8 +118,6 @@ export default function Hero () {
                   </a>
                 </div>
               </div>
-
-              <a href="https://aws.amazon.com/what-is-cloud-computing"><img src="https://d0.awsstatic.com/logos/powered-by-aws.png" alt="Powered by AWS Cloud Computing" className="mt-8" height="36px" width="100px" /></a>
             </div>
           </main>
         </div>
