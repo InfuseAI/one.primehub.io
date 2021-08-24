@@ -25,8 +25,8 @@ export default function Coffee () {
                   Go Grab a Coffee and Say Goodbye to Complex Infrastructure
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  With just 1-click, PrimeHub will setup everything you need for your machine learning adventure on a cloud-native environment. <br/ ><br/ >
-                  Don't waste weeks on setting up 10+ different DevOps tools. Use PrimeHub to get a <b>fully functional JupyterLab</b> environment in no time, to reduce cost, and to scale your team's productivity by 10x. <br/><br/> More features include:
+                  With just 1-click, PrimeHub will setup everything you need for your machine learning adventure on a cloud-native environment. <br /><br />
+                  Don't waste weeks on setting up 10+ different DevOps tools. Use PrimeHub to get a <b>fully functional JupyterLab</b> environment in no time, to reduce cost, and to scale your team's productivity by 10x. <br /><br /> More features include:
                 </p>
                 <li><a href="https://www.infuseai.io/products/primhub-ai-platform#product-benefit" class="text-base text-gray-500 hover:text-gray-900" target="_blank">Cluster computing in the cloud or on-premises
 </a></li>
