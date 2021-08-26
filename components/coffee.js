@@ -29,27 +29,27 @@ export default function Coffee () {
                   Don't waste weeks on setting up 10+ different DevOps tools. Use PrimeHub to get a <b>fully functional JupyterLab</b> environment in no time, to reduce cost, and to scale your team's productivity by 10x. <br /><br />  More features include:
                 </p>
                 <li>
-                  <a 
-                    href="https://www.infuseai.io/products/primhub-ai-platform#product-benefit" 
-                    class="text-base text-gray-500 hover:text-gray-900" 
+                  <a
+                    href="https://www.infuseai.io/products/primhub-ai-platform#product-benefit"
+                    class="text-base text-gray-500 hover:text-gray-900"
                     target="_blank"
                   >
                     Cluster computing in the cloud or on-premises
                   </a>
                 </li>
                 <li>
-                  <a 
-                    href="https://www.infuseai.io/products/primhub-ai-platform#product-benefit" 
-                    class="text-base text-gray-500 hover:text-gray-900" 
+                  <a
+                    href="https://www.infuseai.io/products/primhub-ai-platform#product-benefit"
+                    class="text-base text-gray-500 hover:text-gray-900"
                     target="_blank"
                   >
                     Resource management for teams
                   </a>
                 </li>
                 <li>
-                  <a 
-                    href="https://www.infuseai.io/products/primhub-ai-platform#product-benefit" 
-                    class="text-base text-gray-500 hover:text-gray-900" 
+                  <a
+                    href="https://www.infuseai.io/products/primhub-ai-platform#product-benefit"
+                    class="text-base text-gray-500 hover:text-gray-900"
                     target="_blank"
                   >
                     Enterprise features such as SSO, account protection, and so on!
@@ -158,7 +158,7 @@ export default function Coffee () {
                   It's About Collaboration & Sustainability
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  PrimeHub focus on <b>Machine Learning Orchestration</b> thoughout the entire ML lifecycle. <br /><br />
+                  PrimeHub focus on <b>Machine Learning Orchestration</b> throughout the entire ML lifecycle. <br /><br />
                   We build the infrastructure ready to <b>adapt to the next 10 year</b> of MLOps no matter what tools or platforms change, ensuring the high competency for your enterprise ML investment.
                 </p>
                 <div className="mt-6">
