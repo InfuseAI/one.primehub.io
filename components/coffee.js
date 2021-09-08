@@ -119,7 +119,7 @@ export default function Coffee () {
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   PrimeHub is <b>open source</b> and <b>cloud-native</b>. <br /> <br />
-                  Don't be constrainted by the tools, PrimeHub will adapt to your preferred workflow and work in conjuction with your technology stacks.
+                  Don't be constrained by the tools, PrimeHub will adapt to your preferred workflow and work in conjunction with your technology stacks.
                 </p>
                 <div className="mt-6">
                   <a
