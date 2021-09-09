@@ -5,6 +5,8 @@ import {
   UserGroupIcon
 } from '@heroicons/react/outline'
 
+import CFUrl from './cf'
+
 export default function Coffee () {
   return (
     <div className="relative pt-16 pb-32 overflow-hidden">
@@ -57,7 +59,7 @@ export default function Coffee () {
                 </li>
                 <div className="mt-6">
                   <a
-                    href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=primehub-starter&templateURL=https://primehub.s3.amazonaws.com/cloudformation/v0.8.3/primehub-starter-cloudformation.yaml"
+                    href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
                     style={{backgroundColor: "#365abd"}}
                   >
@@ -163,7 +165,7 @@ export default function Coffee () {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=primehub-starter&templateURL=https://primehub.s3.amazonaws.com/cloudformation/v0.8.3/primehub-starter-cloudformation.yaml"
+                    href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
                     style={{backgroundColor: "#365abd"}}
                   >

@@ -3,6 +3,8 @@ import {Fragment} from 'react'
 import {Popover, Transition} from '@headlessui/react'
 import {MenuIcon, XIcon} from '@heroicons/react/outline'
 
+import CFUrl from './cf'
+
 const navigation = [
   {name: 'PrimeHub', href: 'https://www.infuseai.io/products/primhub-ai-platform'},
   {name: 'PrimeHub Deploy', href: 'https://www.infuseai.io/products/primehub-deploy'},
@@ -111,7 +113,7 @@ export default function Hero () {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=primehub-starter&templateURL=https://primehub.s3.amazonaws.com/cloudformation/v0.8.3/primehub-starter-cloudformation.yaml"
+                    href={CFUrl}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10"
                   >
                     1-Click Install on AWS
