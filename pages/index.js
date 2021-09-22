@@ -9,7 +9,9 @@ export default function Home () {
     <div>
       <Head>
         <title>1-click Install for PrimeHub</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/PrimeHub_icon_32.png" />
+        <meta property="og:website" content="website" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
 
         <script type="text/javascript" src="/hotjar.js" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0B04EW6NF" />
