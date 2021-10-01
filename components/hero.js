@@ -35,7 +35,7 @@ export default function Hero () {
                       <span className="sr-only">InfuseAI</span>
                       <img
                         className="h-8 w-auto sm:h-10"
-                        src="/logo.svg"
+                        src="/PrimeHub_icon.svg"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
