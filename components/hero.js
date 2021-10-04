@@ -7,7 +7,7 @@ import CFUrl from './cf'
 
 const navigation = [
   {name: 'PrimeHub', href: 'https://www.infuseai.io/products/primhub-ai-platform'},
-  {name: 'PrimeHub Deploy', href: 'https://www.infuseai.io/products/primehub-deploy'},
+  {name: 'FAQ', href: 'https://github.com/InfuseAI/primehub-aws-cdk/blob/main/FAQ.md'},
   {name: 'Documentation', href: 'https://docs.primehub.io/'},
 ]
 
