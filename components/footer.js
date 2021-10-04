@@ -6,6 +6,7 @@ const footerNavigation = {
     {name: 'PrimeHub Deploy', href: 'https://www.infuseai.io/products/primehub-deploy'},
   ],
   support: [
+    {name: 'FAQ', href: 'https://github.com/InfuseAI/primehub-aws-cdk/blob/main/FAQ.md'},
     {name: 'Customer Portal', href: 'https://infuseai.zendesk.com/hc/en-us'},
     {name: 'Documentation', href: 'https://docs.primehub.io/'},
   ],
