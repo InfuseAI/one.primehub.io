@@ -172,7 +172,7 @@ export default function Coffee () {
                     Try Free
                   </a>
                 </div>
-                <span className="text-sm text-gray-400 block mt-4">No credit card required. Starting from $999/month for 3 users</span>
+                  <span className="text-sm text-gray-400 block mt-4">No credit card required.<br/>Free for 1 group, starting from $999/month for extra group and 3 users</span>
               </div>
             </div>
           </div>
