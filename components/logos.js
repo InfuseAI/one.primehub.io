@@ -16,10 +16,6 @@ export default function Logos () {
           </div>
 
           <div className="col-span-1 flex justify-center">
-            <img className="max-w-fit h-auto" src="https://uploads-ssl.webflow.com/6049b9389b54fd8838485205/605c555c08dc006492413c4d_%E6%B0%B8%E8%B1%90%E9%87%91%E6%8E%A7%E6%8B%B7%E8%B2%9D-p-500.png" alt="Mirage" />
-          </div>
-
-          <div className="col-span-1 flex justify-center">
             <img
               className="max-w-fit h-auto"
               src="https://uploads-ssl.webflow.com/6049b9389b54fd8838485205/605c557f7fb573606bdd8710_%E5%A5%87%E7%BE%8E-p-500.png"
